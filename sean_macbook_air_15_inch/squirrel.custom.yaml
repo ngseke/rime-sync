@@ -1,0 +1,31 @@
+patch:
+  app_options: {} # 取消鼠鬚管內建的根據 app 自動切換 `ascii_mode` 的行為
+
+  style/color_scheme: ngseke
+
+  style/candidate_format: '%c %@'
+  # style/inline_preedit: false
+
+  style/font_face: 'PingFang TC'
+  style/font_point: 20
+  style/label_font_face: 'menlo'
+  style/label_font_point: 14
+  style/comment_font_point: 14
+
+  preset_color_schemes/ngseke:
+    # horizontal: true
+    corner_radius: 6
+    border_height: 6
+    border_width: 6
+    font_point: 18
+    label_font_point: 14
+    label_color: 0x808080
+    text_color: 0x808080
+    hilited_text_color: 0xd4d4d4
+    candidate_text_color: 0xd4d4d4
+    comment_text_color: 0x808080
+    back_color: 0x1e1e1e
+    hilited_candidate_label_color: 0xd4d4d4
+    hilited_candidate_text_color: 0xFFC14F
+    hilited_candidate_back_color: 0x22FFC14F
+    hilited_corner_radius: 6

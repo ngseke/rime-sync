@@ -1,0 +1,102 @@
+# Rime table
+# coding: utf-8
+#@/db_name  custom_phrase.txt
+#@/db_type	tabledb
+#
+# 用於【朙月拼音】系列輸入方案
+# 【小狼毫】0.9.21 以上
+#
+# 請將該文件以UTF-8編碼保存爲
+# Rime用戶文件夾/custom_phrase.txt
+#
+# 碼表各字段以製表符（Tab）分隔
+# 順序爲：文字、編碼、權重（決定重碼的次序、可選）
+#
+# 雖然文本碼表編輯較爲方便，但不適合導入大量條目
+#
+# no comment
+
+Google Analytics	ga
+Google	google
+Facebook	facebook
+Facebook	fb
+Twitter	twitter
+Yahoo	yahoo
+CSS	css
+HTML	html
+iOS	ios
+iPad	ipad
+iPhone	iphone
+iTunes	itunes
+JavaScript	jjj
+JavaScript	javaScript
+TypeScript	ttt
+TypeScript	typeScript
+jQuery	jquery
+MySQL	mysql
+SQL	sql
+Swift	swift
+MacBook	macbook
+Apple	apple
+GitHub	github
+iMac	imac
+iPad	ipad
+iPad Air	ipad
+iPad mini	ipad
+iPad Pro	ipad
+iPhone	iphone
+iPod	ipod
+YouTube	youtube
+YouTuber	youtuber
+GitLab	gitlab
+KFC	kfc
+LeetCode	leetcode
+LinkedIn	linkedin
+McDonald	mcdonald
+DevOps	devops
+DevTools	devtools
+AirPods	airpods
+ECharts	echarts
+ESLint	eslint
+Firefox	firefox
+Chrome	chrome
+iOS	ios
+RESTful	restful
+Sass	sass
+SCSS	scss
+Tailwind	tailwind
+Vercel	vercel
+VSCode	vscode
+CakeResume	cakeresume
+Yourator	yourator
+Nuxt	nuxt
+Pinia	pinia
+Vue	vue
+Vue.js	vuejs
+Nintendo	nintendo
+Minecraft	minecraft
+Axios	axios
+Twitter	twitter
+React	react
+DOM	dom
+DNS	dns
+HTTP	http
+Angular	angular
+Svelte	svelte
+Vite	vite
+Webpack	webpack
+Jest	jest
+Vitest	vitest
+SSR	ssr
+Node.js	nodejs
+Node	node
+ChatGPT	chatgpt
+ChatGPT	gpt
+Frontend	fe
+Backend	be
+Splatoon	splatoon
+WSL	wsl
+function	function
+Spotify	spotify
+Docker	docker
+Sourcetree	sourcetree

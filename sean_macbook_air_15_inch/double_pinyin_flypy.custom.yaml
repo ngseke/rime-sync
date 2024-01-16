@@ -1,0 +1,26 @@
+patch:
+  switches/+:
+    - name: emoji_suggestion
+      reset: 1
+      states: [ "🈚︎", "🈶️" ]
+  'engine/filters/@before 0':
+    simplifier@emoji_suggestion
+  emoji_suggestion:
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+    tips: none
+    inherit_comment: false
+
+  recognizer/patterns/reverse_lookup:
+
+  # translator/preedit_format: {} # 输入双拼码的时候不转化为全拼码
+
+  # 双拼使用自定义词典 custom_phrase.txt
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+  "engine/translators/@5": table_translator@custom_phrase

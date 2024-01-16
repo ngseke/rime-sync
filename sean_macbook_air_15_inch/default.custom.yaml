@@ -1,0 +1,42 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.14.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Wed Sep 21 14:09:21 2022"
+  rime_version: 1.5.3
+
+patch:
+  "menu/page_size": 5
+  "key_binder/bindings":
+    - {accept: bracketleft, send: Page_Up, when: paging}
+    - {accept: bracketright, send: Page_Down, when: has_menu}
+
+  schema_list:
+    - schema: double_pinyin_flypy
+    - schema: luna_pinyin
+    - schema: cangjie5
+    - schema: bopomofo_tw
+    - schema: hangeul_hnc
+
+  ascii_mode: true
+
+  ascii_composer/switch_key:
+    Shift_L: noop # 禁用 shift 切換中英文
+    Shift_R: noop
+
+  "punctuator/half_shape/{": {commit: "「"}
+  "punctuator/half_shape/}": {commit: "」"}
+  "punctuator/half_shape/~": {commit: "～"}
+  "punctuator/half_shape/$": {commit: "$"}
+  "punctuator/half_shape/'": {commit: "'"}
+  'punctuator/half_shape/"': {commit: '"'}
+  'punctuator/half_shape/\': {commit: '、'}
+  "punctuator/half_shape/>": ["》", "〉", "»", "›", "→"]
+  "punctuator/half_shape/<": ["《", "〈", "«", "‹", "←"]
+  'punctuator/half_shape/`':
+    - a92304a92304@gmail.com
+    - ngseke@gmail.com
+    - 0983333804
+    - G122299893
+    - /98O9Y+R
+    - 黃省喬
